@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>合同会社 Hena International</title>
+    <style>
+      section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+      }
+
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-bottom: 0.5rem;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+          <img
+            src="./images/logo.png"
+            alt="合同会社 Hena International"
+            height="30px"
+          />
+          合同会社 Hena International
+        </a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mx-5">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="tel:+81 80-3505-7699">
+                <i class="pe-2 fa-solid fa-phone"></i> Call now
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold"
+                href="https://www.google.com/maps/dir//%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BE+Hena+International+Japan,+%E3%80%92277-0841+Chiba,+Kashiwa,+Akebono,+2+Chome+%E3%82%B8%E3%83%A5%E3%83%8D%E3%82%A8%E3%83%88+%E3%83%AF%E3%83%BC%E3%83%AB%E6%9F%8F103%E5%8F%B7%E5%AE%A4+5%E7%95%AA20%E5%8F%B7/@35.8684564,139.9756498,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x60189ce2ff4bffff:0xf3abec384b6c3209!2m2!1d139.9756498!2d35.8684564"
+                target="_blank"
+              >
+                <i class="pe-2 fa-solid fa-diamond-turn-right"></i> Get
+                Directions
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              合同会社 Hena International
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div style="margin-top: 80px"></div>
+    <div class="container">
+      <div class="p-5 mt-5 mb-4 bg-light text-center rounded-3">
+        <img
+          class="img-fluid"
+          src="./images/logo.png"
+          alt="合同会社 Hena International"
+        />
+        <h1 class="display-5 fw-bold text-primary">
+          合同会社 Hena International
+        </h1>
+        <p class="fs-4">
+          All kind of car accessories in kashiwa <br />
+          Open from 9:00 AM to 6:00 PM
+        </p>
+        <button class="btn btn-primary btn-lg" type="button">GET QUOTE</button>
+      </div>
+      <div class="d-flex justify-content-center">
+        <img
+          class="img-fluid mb-3"
+          src="./images/car-parts.jpg"
+          alt="Car Parts"
+        />
+      </div>
+    </div>
+    <section id="testimonials">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-9 text-center text-uppercase">
+            <h2 class="text-secondary fw-bold">Testimonials</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-9 text-center">
+            <p class="fs-3">
+              New business new energy I love all of you and I hope you Have
+              successful Businessman in Japan
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-9 mb-3 text-center text-uppercase">
+            <h2 class="text-secondary fw-bold">GALLERY</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img class="rounded" src="./images/parts-1.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-2.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-3.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-4.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-5.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-18.jpg" alt="Car Parts" />
+          </div>
+          <div class="column">
+            <img class="rounded" src="./images/parts-8.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-9.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-10.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-11.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-12.jpg" alt="Car Parts" />
+          </div>
+          <div class="column">
+            <img class="rounded" src="./images/parts-13.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-14.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-15.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-16.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-17.jpg" alt="Car Parts" />
+          </div>
+          <div class="column">
+            <img class="rounded" src="./images/parts-19.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-20.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-21.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-22.jpg" alt="Car Parts" />
+            <img class="rounded" src="./images/parts-7.jpg" alt="Car Parts" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <h2 class="text-secondary fw-bold mb-3">Car Navi</h2>
+          <img class="img-fluid" src="./images/car-navi.jpeg" alt="Car Navi" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-9 mb-3 text-center text-uppercase">
+            <h2 class="text-secondary fw-bold">Contact us</h2>
+          </div>
+          <div class="col-9">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Type a message here"
+                  id="message"
+                  style="height: 200px"
+                ></textarea>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="embed-responsive embed-responsive-16by9 mt-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.206485570044!2d139.9756498!3d35.8684564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189ce2ff4bffff%3A0xf3abec384b6c3209!2z5ZCI5ZCM5Lya56S-IEhlbmEgSW50ZXJuYXRpb25hbA!5e0!3m2!1sen!2sbd!4v1668407540778!5m2!1sen!2sbd"
+              width="100%"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 mb-4">
+            <h3>Contact</h3>
+            <div class="mb-2">
+              <a
+                class="px-4 py-2 d-inline-block text-white bg-primary text-decoration-none"
+                href="tel:+81 80-3505-7699"
+                ><i class="pe-2 fa-solid fa-phone"></i> Call now</a
+              >
+            </div>
+            <p class="fs-5">+81 80-3505-7699</p>
+          </div>
+          <div class="col-sm-4 mb-4">
+            <h3>Address</h3>
+            <div class="mb-2">
+              <a
+                class="px-4 py-2 d-inline-block text-white bg-primary text-decoration-none"
+                href="https://www.google.com/maps/dir//%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BE+Hena+International+Japan,+%E3%80%92277-0841+Chiba,+Kashiwa,+Akebono,+2+Chome+%E3%82%B8%E3%83%A5%E3%83%8D%E3%82%A8%E3%83%88+%E3%83%AF%E3%83%BC%E3%83%AB%E6%9F%8F103%E5%8F%B7%E5%AE%A4+5%E7%95%AA20%E5%8F%B7/@35.8684564,139.9756498,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x60189ce2ff4bffff:0xf3abec384b6c3209!2m2!1d139.9756498!2d35.8684564"
+                target="_blank"
+                ><i class="pe-2 fa-solid fa-location-dot"></i> Get Directions</a
+              >
+            </div>
+            <p class="fs-5">
+              〒277-0841 Chiba ken, <br />
+              Kashiwa shi, Akebono 2- Chome <br />
+              ジュネエト ワール柏103号室 5番20号
+            </p>
+          </div>
+          <div class="col-sm-4 mb-4">
+            <h3>Business Hours</h3>
+            <table class="table table-sm table-borderless">
+              <tbody>
+                <tr>
+                  <th>Mon:</th>
+                  <td><span>9:00 AM - 6:00 PM</span></td>
+                </tr>
+                <tr>
+                  <th>Tue:</th>
+                  <td><span>9:00 AM - 6:00 PM</span></td>
+                </tr>
+                <tr>
+                  <th>Wed:</th>
+                  <td><span>9:00 AM - 6:00 PM</span></td>
+                </tr>
+                <tr>
+                  <th>Thu:</th>
+                  <td><span>9:00 AM - 6:00 PM</span></td>
+                </tr>
+                <tr>
+                  <th>Fri:</th>
+                  <td><span>9:00 AM - 6:00 PM</span></td>
+                </tr>
+                <tr>
+                  <th>Sat:</th>
+                  <td><span>Closed</span></td>
+                </tr>
+                <tr>
+                  <th>Sun:</th>
+                  <td><span>Closed</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
